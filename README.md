@@ -46,6 +46,15 @@ con params tenemos dos posibles peticiones ambas a la misma URL<br />
 <hr />
 
 /personas POST <br /> 
-tambien podemos postear a /personas para esto vamos a necesitar mandar por body ciertas cosas
+tambien podemos postear a /personas para esto vamos a necesitar mandar por body ciertas cosas, estan detalladas aqui abajo, recuerden que los campos Email y numero de documento son unicos, Cosas a tener en cuenta al momento de postear:<br/>
+1. La edad debe ser mayor a 18<br/>
+2. El genero puede ser Masculino o Femenino ( escritos de esa manera )<br/>
+3. El pais debe estar escrito Capitalizado en lo posible Argentina por ejemplo o Brasil<br/>
+4. el tipo de identificacion (documento de identidad de cada pais) debe estar escrito en mayuscula DNI, CPF<br/>
+5. tanto el mail como el numero de identificacion DEBEN SER UNICOS
+
+
+![image](https://user-images.githubusercontent.com/90066344/210855967-6b9e802f-b5db-4b53-840f-5b5512619ce9.png)
+
 
 <hr />
