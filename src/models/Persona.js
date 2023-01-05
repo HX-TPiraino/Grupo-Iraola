@@ -38,7 +38,8 @@ export const Persona = sequelize.define("personas", {
     },
     email: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: false,
+        unique: true
     }
 },
 {

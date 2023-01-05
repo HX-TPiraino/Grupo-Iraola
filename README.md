@@ -23,3 +23,29 @@ Explicacion de como Utilizar la API Grupo Iraola gestion de personas <br />
 
 3. Ejecutar en la carpeta padre el comando npm start para correr el servidor en el puerto indicado
 
+<hr />
+<hr />
+<hr />
+
+Como debes hacer las peticiones ! <br /> 
+
+<hr />
+
+/personas con querys (?)<br /> 
+tenemos dos querys ?country y ?name para hacer estas y que funcionen correctamente basta con poner a continuacion de /personas un ?name o country seguido del dato que queramos buscar
+
+<hr />
+
+/personas con params (:)<br /> 
+con params tenemos dos posibles peticiones ambas a la misma URL<br /> 
+    1. DELETE /personas/:id<br /> 
+    esta primera es la de borrar a una persona, utilizando su id por parametro la seleccionamos y la borramos<br /> 
+    2. PUT /personas/:id<br /> 
+    esta es para actualizar a una de nuestras personas solamente podemos cambiar El mail o el nombre ya que los demas campos son propios de la persona, estos campos deben viajar por body en un formato json
+
+<hr />
+
+/personas POST <br /> 
+tambien podemos postear a /personas para esto vamos a necesitar mandar por body ciertas cosas
+
+<hr />
