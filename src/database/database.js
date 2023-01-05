@@ -4,7 +4,7 @@ dotenv.config()
 
 
 export const sequelize = new Sequelize(process.env.DB_DEPLOY,
-    {
-        logging: false,
-        native: false
-    })
+{
+    logging: false,
+    native: false
+})
